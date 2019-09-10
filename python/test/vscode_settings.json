@@ -5,9 +5,14 @@
     "workbench.sideBar.location": "left",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
+    "editor.rulers": [
+        80
+    ],
     "editor.fontSize": 14,
     "editor.fontWeight": "500",
+    "editor.fontFamily": "Source Code Pro",
     "debug.console.fontSize": 14,
+    "debug.console.fontFamily": "Source Code Pro",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeight": "600",
     "python.pythonPath": "C:\\Users\\ChaosHead\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
@@ -19,5 +24,6 @@
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
     },
-    "code-runner.clearPreviousOutput": true
+    "code-runner.clearPreviousOutput": true,
+    "git.autofetch": true
 }
