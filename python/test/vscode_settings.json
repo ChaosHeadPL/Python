@@ -1,0 +1,23 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Ayu Mojave",
+    "workbench.iconTheme": "ayu",
+    "workbench.sideBar.location": "left",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "500",
+    "debug.console.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "600",
+    "python.pythonPath": "C:\\Users\\ChaosHead\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bash.exe",
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true
+}
