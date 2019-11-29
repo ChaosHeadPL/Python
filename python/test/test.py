@@ -1,4 +1,5 @@
-print("Hello Word!!!")
+def test():
+    return "Hello Word!!!"
 
-test = "aaa"
-print("")
+
+print(test())
