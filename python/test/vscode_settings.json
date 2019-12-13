@@ -1,29 +1,41 @@
 {
+    // Workbench settings:
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Ayu Mojave",
     "workbench.iconTheme": "ayu",
     "workbench.sideBar.location": "left",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.tree.indent": 24,
+    "workbench.tree.renderIndentGuides": "always",
     "editor.rulers": [
-        80
+        88
     ],
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    // Font settings:
     "editor.fontSize": 14,
     "editor.fontWeight": "500",
     "editor.fontFamily": "Source Code Pro",
-    "debug.console.fontSize": 14,
+    "debug.console.fontSize": 13,
     "debug.console.fontFamily": "Source Code Pro",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontWeight": "600",
+    "terminal.integrated.fontFamily": "Source Code Pro",
+    // Python settings:
     "python.pythonPath": "C:\\Users\\ChaosHead\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
     "python.formatting.provider": "black",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "editor.formatOnSave": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bash.exe",
+    // Terminal settings:
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\git-bash.exe",
+    // Code Runner settings:
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
     },
     "code-runner.clearPreviousOutput": true,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
 }
