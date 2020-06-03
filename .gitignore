@@ -3,3 +3,4 @@ README.md
 .vscode
 .test_file.json
 *cpython-37.pyc
+__pycache__/

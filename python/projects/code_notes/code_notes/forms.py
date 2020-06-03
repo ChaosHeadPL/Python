@@ -31,6 +31,10 @@ class LoginForm(FlaskForm):
 
 class WikiPostForm(FlaskForm):
     title = StringField("Title", validators=[DataRequired(), Length(min=2, max=20)])
-    tags = SelectMultipleField("Tags", validators=[DataRequired()])
+    tags = SelectMultipleField(
+        "Tags",
+        validators=[DataRequired()],
+        choices=[("py", "python"), ("py", "linux"), ("py", "snippet"), ("py", "flask")],
+    )
     post = TextAreaField("Post")
     submit = SubmitField("Add")

@@ -1,19 +1,22 @@
 from flask import render_template, url_for, flash, redirect
 from code_notes import app
 from code_notes.forms import RegistrationForm, LoginForm, WikiPostForm
-from code_notes.models import User, Post
+from code_notes.models.users import User
+from code_notes.models.blog import Post
+from code_notes.models.books import Book, Author
+from code_notes.models.wiki import Note, Tag
 import logging
 
 
 posts = [
     {
-        "author": "Corey Schafer",
+        "author": "ChaosHead",
         "title": "Blog Post 1",
         "content": "First post content",
         "date_posted": "April 20, 2018",
     },
     {
-        "author": "Jane Doe",
+        "author": "ChaosHead",
         "title": "Blog Post 2",
         "content": "Second post content",
         "date_posted": "April 21, 2018",
@@ -65,3 +68,8 @@ def markdown_form():
 @app.route("/wiki", methods=["GET", "POST"])
 def wiki():
     return render_template("wiki.html", title="Login")
+
+
+@app.route("/achievements", methods=["GET", "POST"])
+def achievements():
+    return render_template("achievements.html", title="Login")
